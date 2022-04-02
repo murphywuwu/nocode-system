@@ -2,7 +2,6 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "jsx": "react",
     "module": "commonjs",
     "target": "ES6",
     "allowJs": false,
@@ -14,11 +13,8 @@
     "experimentalDecorators": true,
     "downlevelIteration": true,
     "baseUrl": ".",
-    "outDir": "./lib/server",
-    "paths": {
-    }
+    "outDir": "./lib",
+    "paths": {}
   },
-  "include": [
-    "src/server",
-  ]
+  "include": ["src/"]
 }
