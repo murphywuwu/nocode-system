@@ -1,10 +1,10 @@
-import { test } from '../controller';
+import { hello } from '../controller';
 
 const routes = [
   {
     method: 'get',
     path: '/hello',
-    controller: test,
+    controller: hello,
   },
   {
     method: 'post',

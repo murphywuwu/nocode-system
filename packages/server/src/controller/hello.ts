@@ -1,5 +1,5 @@
 const test = async (ctx) => {
-  ctx.body = '路由改造后的结果';
+  ctx.body = 'Hello World';
 };
 
 export default test;

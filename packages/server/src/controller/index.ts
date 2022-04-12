@@ -1,3 +1,3 @@
-import test from './test';
+import hello from './hello';
 
-export { test };
+export { hello };
