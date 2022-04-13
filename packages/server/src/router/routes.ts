@@ -14,6 +14,14 @@ const routes = [
       ctx.body = ctx.request.body;
     },
   },
+  {
+    method: 'get',
+    path: '/error/null',
+    controller: async (ctx, next) => {
+      ctx.body = { code: '0000', msg: '数据不存在' };
+      await next();
+    },
+  },
 ];
 
 export default routes;
